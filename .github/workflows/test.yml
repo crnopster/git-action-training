@@ -1,4 +1,4 @@
- workflow "test" {
+workflow "test" {
   on = "push"
   resolves = ["Lint"]
 }
