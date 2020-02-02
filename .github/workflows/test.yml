@@ -17,7 +17,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run GolangCI-Lint Action
-      uses: Mushus/golangci-linter@v1
       run: golangci-lint run
 
     - name: Get dependencies
