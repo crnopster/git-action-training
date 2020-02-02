@@ -9,6 +9,7 @@ import (
 )
 
 const one = 1
+const mistake = "Some string that will never be used"
 
 func find(numbers []int) []string {
 	var s []string
